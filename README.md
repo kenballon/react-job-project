@@ -13,18 +13,21 @@ A job board application built with React, Vite, and Tailwind CSS. This applicati
 ## Prerequisites
 
 Before you begin, ensure you have installed:
+
 - Node.js (v14 or higher)
 - npm (comes with Node.js)
 
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 git clone [your-repository-url]
 cd react-job
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
@@ -34,15 +37,19 @@ npm install
 The application requires two terminals to run:
 
 1. Start the JSON server (provides the jobs API):
+
 ```bash
 npm run server
 ```
+
 This will start the mock API server on http://localhost:8000
 
 2. In a new terminal, start the development server:
+
 ```bash
 npm run dev
 ```
+
 This will start the Vite development server and the application will be available at http://localhost:5173
 
 ## Technologies Used
